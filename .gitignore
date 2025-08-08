@@ -1,0 +1,42 @@
+# Fichiers sensibles
+.streamlit/secrets.toml
+.env
+*.key
+*.pem
+
+# Prompts sensibles
+prompts/
+
+# Données utilisateur
+conversations.json
+*.json
+
+# Environnement virtuel
+env/
+venv/
+.venv/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Fichiers temporaires
+*.tmp
+*.temp
